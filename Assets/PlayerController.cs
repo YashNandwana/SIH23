@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     private float previousTime = 0;
     private Rigidbody2D playerRigidBody;
     private Vector2 previousPosition;
+
     // Start is called before the first frame update
     void Start()
     {
