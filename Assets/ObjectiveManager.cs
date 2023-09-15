@@ -7,8 +7,7 @@ public class ObjectiveManager : MonoBehaviour
 {
     public static ObjectiveManager instance { get; private set; }
 
-    public bool coin = false;
-    public bool bought = false;
+    public bool coin = false, bought = false;
 
     public GameObject open, closed, priest;
 
