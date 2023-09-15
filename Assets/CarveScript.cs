@@ -4,7 +4,7 @@ using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 
-public class CopyTrigger : MonoBehaviour, IPointerClickHandler
+public class CarveScript : MonoBehaviour, IPointerClickHandler
 {
     private float startTime, curTime;
     public GameObject fadeObject;
