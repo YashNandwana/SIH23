@@ -11,13 +11,12 @@ public class MrOgDialogueTrigger : MonoBehaviour
     public float textSpeed;
 
     private void OnTriggerEnter2D(Collider2D collider)
-    { 
-        if (collider.CompareTag("Player"))
-        {
-            MrOgDialogues.transform.GetChild(0).gameObject.SetActive(true);
-            dialogueText.text = string.Empty;
-            DialogueBegin();
-        }
+    {
+
+        MrOgDialogues.transform.GetChild(0).gameObject.SetActive(true);
+        dialogueText.text = string.Empty;
+        DialogueBegin();
+
     }
 
 
@@ -45,11 +44,11 @@ public class MrOgDialogueTrigger : MonoBehaviour
 
     IEnumerator TypeLine()
     {
-        foreach(char c in lines[currentLineIndex].ToCharArray())
+        foreach (char c in lines[currentLineIndex].ToCharArray())
         {
             dialogueText.text += c;
             yield return new WaitForSeconds(textSpeed);
-        } 
+        }
     }
 
     void NextLine()
