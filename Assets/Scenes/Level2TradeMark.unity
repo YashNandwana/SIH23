@@ -82721,6 +82721,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1113317066}
     m_Modifications:
+    - target: {fileID: 3319422173865655866, guid: d1a338ba48113b84b89cfa8f8738ba47,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8150162035779360640, guid: d1a338ba48113b84b89cfa8f8738ba47,
         type: 3}
       propertyPath: m_Pivot.x
@@ -82845,6 +82850,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Book
+      objectReference: {fileID: 0}
+    - target: {fileID: 8150162035779360702, guid: d1a338ba48113b84b89cfa8f8738ba47,
+        type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8150162035788845457, guid: d1a338ba48113b84b89cfa8f8738ba47,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8150162036453948185, guid: d1a338ba48113b84b89cfa8f8738ba47,
+        type: 3}
+      propertyPath: m_fontStyle
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d1a338ba48113b84b89cfa8f8738ba47, type: 3}
