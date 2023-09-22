@@ -16,6 +16,4 @@ public class ObjectiveManagerLvl3 : MonoBehaviour
         else
             instance = this;
     }
-
-
 }

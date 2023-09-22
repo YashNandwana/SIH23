@@ -7,6 +7,6 @@ public class Lvl2NextScene : MonoBehaviour
 {
     void OnTriggerEnter2D(Collider2D collider)
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(3);
     }
 }
